@@ -11,6 +11,7 @@
 }
 
 * {
+  direction: rtl;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -34,7 +35,7 @@
 .section__header::after {
   position: absolute;
   content: "";
-  left: 0;
+  Right: 0;
   bottom: 0;
   width: 50px;
   height: 3px;
@@ -118,7 +119,7 @@ nav {
 .nav__links {
   position: absolute;
   top: 68px;
-  left: 0;
+  right: 0;
   width: 100%;
   padding: 2rem;
   list-style: none;
@@ -194,7 +195,7 @@ nav {
 
 .about__image .about__bg {
   position: absolute;
-  right: 2rem;
+  left: 2rem;
   top: 3rem;
   max-width: 250px;
   z-index: -1;
@@ -251,7 +252,7 @@ nav {
   position: absolute;
   max-width: 175px;
   top: -3rem;
-  right: -1rem;
+  left: -1rem;
   z-index: -1;
   opacity: 0;
   transition: 0.3s;
@@ -285,7 +286,7 @@ nav {
 }
 
 .trainer__container .section__header::after {
-  left: 50%;
+  /* right: 50%; */
   transform: translateX(-50%);
 }
 
@@ -350,7 +351,7 @@ nav {
 }
 
 .price__container .section__header::after {
-  left: 50%;
+  /* right: 50%; */
   transform: translateX(-50%);
 }
 
@@ -418,7 +419,7 @@ nav {
 .client__card img {
   position: absolute;
   top: 0;
-  left: 2rem;
+  right: 2rem;
   transform: translateY(-50%);
   max-width: 80px;
   border-radius: 100%;
